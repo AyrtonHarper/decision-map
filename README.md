@@ -2,7 +2,13 @@
 
 Personal thinking tool: dump unstructured thoughts, map them into an editable reasoning graph, and check decision clarity.
 
-## Run
+## Try it (no install)
+
+**Live demo:** https://ayrtonharper.github.io/decision-map/
+
+Open that URL in your browser — nothing to install. Your graph saves to `localStorage` in that browser.
+
+## Run locally
 
 ```bash
 npm install
@@ -10,6 +16,8 @@ npm run dev
 ```
 
 Open the local URL Vite prints (default `http://127.0.0.1:5173`).
+
+Pushes to `main` auto-deploy to GitHub Pages via Actions.
 
 ## Flow
 
