@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+@import '@xyflow/react/dist/style.css';
+
+:root {
+  color-scheme: dark;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0f1115;
+  color: #d4d4d8;
+}
+
+/* Calm React Flow chrome for dark mode */
+.react-flow__background {
+  background: #0f1115 !important;
+}
+
+.react-flow__controls {
+  background: #18181b;
+  border: 1px solid #3f3f46;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.react-flow__controls-button {
+  background: #18181b;
+  border-bottom: 1px solid #3f3f46;
+  fill: #a1a1aa;
+}
+
+.react-flow__controls-button:hover {
+  background: #27272a;
+}
+
+.react-flow__edge-path {
+  stroke: #71717a;
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background: #71717a;
+  border: 1px solid #a1a1aa;
+}
+
+.react-flow__attribution {
+  display: none;
+}
